@@ -41,13 +41,16 @@ function HeaderL() {
           </div>
         </div>
       </nav>
-      <div className="row px-1">
-        <div className="container mt-5 pt-2">
-            <form className="d-flex my-2 p-2 my-lg-0">
+      <div className="row row-cols-1 row-cols-md-7 row-cols-lg-7 px-1">
+        <div className="col-md-8 mx-auto">
+          <div className="mt-5 pt-2 mx-2">
+            <form className="d-flex my-2 py-2 my-lg-0">
                 <input className="form-control me-sm-2" type="text" placeholder="¿Que quieres aprender?"/>
                 <button className="btn btn-primary btn-primary-outline-success" type="submit">Buscar</button>
             </form>
         </div>
+        </div>
+        
       </div>
     </div>
     
