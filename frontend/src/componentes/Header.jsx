@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <div className="header">
-      <nav className="navbar navbar-expand-sm navbar-light bg-light" id='menu'>
+      <nav className="navbar navbar-expand-sm navbar-light bg-light fixed-top" id='menu'>
       <div className="container">
         <Link to="/" className="navbar-brand" >
           <i>
@@ -40,7 +40,7 @@ function Header() {
         </div>
       </nav>
       <div className="row px-1">
-        <div className="container">
+        <div className="container pt-5 mt-2">
             <form className="d-flex p-2 my-lg-0">
                 <input className="form-control me-sm-2" type="text" placeholder="¿Que quieres aprender?"/>
                 <button className="btn btn-primary btn-primary-outline-success" type="submit">Buscar</button>
