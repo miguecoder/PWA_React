@@ -1,14 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import icon_32 from '../images/icon_32.png';
 
 function HeaderL() {
   return (
     <div className="headerL">
       <nav className="navbar navbar-expand-sm navbar-light bg-light fixed-top">
         <div className="container">
-          <Link to="/homeL" className="navbar-brand" href="#"> <i>Ensigna</i> </Link>
+          <Link to="/homeL" className="navbar-brand" href="#"> <img src={icon_32} alt="Logo" width="30" height="24" class="d-inline-block align-text-top"/><i>Ensigna</i> </Link>
           
           <button className="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+          
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="collapsibleNavId">
